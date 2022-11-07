@@ -12,6 +12,9 @@ pytest = "^7.2.0"
 selene = "^1.0.2"
 
 
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.15.5"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
